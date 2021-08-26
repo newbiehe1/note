@@ -1,0 +1,31 @@
+矩阵 3*3
+(a,b,c,d,e,f)
+=[
+a c e
+b d f
+0 0 1
+]
+
+e,f  => translate(e,f);
+
+a,d => scale(a,d);
+
+a,b,c,d => cos(30),sin(30),-sin(30),cos(30) =>rotate(30deg)
+
+a,b,c,d => 1,tan(y),tan(x),1 =>skew(x,y);
+
+
+
+---------------------------------------------
+矩阵 4*4
+(g,h,i,j,k,l,m,n,o,p,q)
+ = [
+  g  j  m  o
+  h  k  n  p
+  i  l  o  q
+  0  0  0  1
+ ]
+
+o,p,q  => translate(o,p,q);
+
+g,k,o => scale(g,k,o);
